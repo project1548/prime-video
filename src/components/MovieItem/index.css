@@ -1,48 +1,29 @@
 /* Write your CSS here */
 .thumbnail {
-  width: 215px;
-  height: 150px;
-  border-radius: 8px;
+  width: 90%;
+  margin: 4%;
   cursor: pointer;
 }
-
-@media (min-width: 1200px) {
-  .thumbnail {
-    width: 254px;
-    height: 170px;
-  }
-}
-
-.popup-content {
-  background-color: #ffffff;
+.popup-bg {
+  background-color: white;
   width: 750px;
-  height: 460px;
-  border-radius: 16px;
-}
-
-.modal-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  justify-content: center;
+  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  border-radius: 16px;
 }
-
+.video {
+  width: 50%;
+}
 .close-button {
   align-self: flex-end;
   background-color: transparent;
-  width: 28px;
-  height: 28px;
   border: none;
-  margin-top: 18px;
-  margin-right: 18px;
   outline: none;
   cursor: pointer;
-}
-
-.movie-player-container {
-  margin-top: 12px;
-  margin-left: 48px;
-  margin-bottom: 48px;
-  margin-right: 48px;
+  margin-top: 0px;
 }

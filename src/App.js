@@ -108,6 +108,7 @@ const moviesList = [
     categoryId: 'ACTION',
   },
 ]
+
 const App = () => <PrimeVideo moviesList={moviesList} />
 
 export default App
